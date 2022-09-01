@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border- box;
+    font-family: sans-serif;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align:center;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 650px;
+    height: 500px;
+    margin-top: 90px;
+    background-color: #FBFBFB;
+    display: flex;
+}
+.section1{
+    width: 0%;
+}
+.section2{
+    width: 0%;  
+}
+h0{
+    text-align:center;
+}
+h5{
+    margin-top: 5px;
+}
+label{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(68, 68, 68);
+}
+input{
+    border: card;
+    width: 15%;
+    border-bottom: 1px solid lightblue;
+    background-color: #FBFBFB;
+    position: relative;
+    text-align:center;
+    top: -10px;
+    padding: 5px;
+}
+input:focus {
+    outline: none !important;
+    border-bottom: 1px solid red;
+    font-size: 14px;
+    font-weight: bold;
+}
+#password:focus{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+#btn {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+p{
+    font-size: small;
+}
+.line{
+    border-bottom: 1px solid lightblue;
+    width: 100%;
+    margin-top: 50px;
+}
+.Icons{
+    display: flex;
+    margin-top: 5px;
+}
+.icon{
+    margin: 10px 7px;
+    position: relative;
+    left: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 0%;
+    border: 0.5px red;
+    font-size: 8px;
+    line-height:4px;
+}
+.fab{
+    position: relative;
+    left: 6px;
+}
+.fb > .fab {
+    position:relative;
+    center: 4px;
+}
+h6{
+    position:relative;
+    top: 4px;
+    font-size: 12px;
+}
+.icon:hover, #btn:hover{
+    box-shadow: 0 0 25px rgba(8, 8, 8, 0.2);
+    background-color: rgb(182, 49, 93);
+}
